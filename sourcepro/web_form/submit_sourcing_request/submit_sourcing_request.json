@@ -1,0 +1,45 @@
+{
+  "doctype": "Web Form",
+  "name": "submit_sourcing_request",
+  "module": "Sourcepro",
+  "doc_type": "Sourcing Request",
+  "is_standard": 1,
+  "title": "Submit Sourcing Request",
+  "login_required": 0,
+  "allow_edit": 0,
+  "allow_multiple": 0,
+  "success_message": "Thank you! Your sourcing request has been submitted.",
+  "published": 1,
+  "web_form_fields": [
+    {
+      "fieldname": "client_name",
+      "label": "Client Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "client_whatsapp",
+      "label": "WhatsApp Number",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "destination_country",
+      "label": "Destination Country",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "note",
+      "label": "Notes",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "items",
+      "label": "Requested Items",
+      "fieldtype": "Table",
+      "options": "Requested Item",
+      "reqd": 1
+    }
+  ]
+}
