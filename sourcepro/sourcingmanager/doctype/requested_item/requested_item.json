@@ -5,18 +5,35 @@
   "custom": 1,
   "istable": 1,
   "fields": [
-    { "fieldname": "item_name", "label": "Item Name", "fieldtype": "Data" },
+    {
+      "fieldname": "item_name",
+      "label": "Item Name",
+      "fieldtype": "Data",
+      "allow_in_quick_entry": 1
+    },
     {
       "fieldname": "description",
       "label": "Description",
-      "fieldtype": "Small Text"
+      "fieldtype": "Small Text",
+      "allow_in_quick_entry": 1
     },
-    { "fieldname": "qty", "label": "Quantity", "fieldtype": "Int" },
+    {
+      "fieldname": "qty",
+      "label": "Quantity",
+      "fieldtype": "Int",
+      "allow_in_quick_entry": 1
+    },
     {
       "fieldname": "reference_link",
       "label": "Reference Link",
-      "fieldtype": "Data"
+      "fieldtype": "Data",
+      "allow_in_quick_entry": 1
     },
-    { "fieldname": "photo", "label": "Photo", "fieldtype": "Attach Image" }
+    {
+      "fieldname": "photo",
+      "label": "Photo",
+      "fieldtype": "Attach Image",
+      "allow_in_quick_entry": 1
+    }
   ]
 }
