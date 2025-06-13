@@ -1,0 +1,15 @@
+{
+  "doctype": "Notification",
+  "name": "Sourcing Request Notification",
+  "document_type": "Sourcing Request",
+  "subject": "New Sourcing Request Submitted",
+  "message": "<p><strong>{{ doc.client_name }}</strong> has submitted a new sourcing request.</p><p>Destination: {{ doc.destination_country }}</p><p>WhatsApp: {{ doc.client_whatsapp }}</p><p>Note: {{ doc.note or 'No notes provided' }}</p>",
+  "event": "New",
+  "channel": "Email",
+  "recipients": [
+    {
+      "receiver_by_document_field": "owner"
+    }
+  ],
+  "enabled": 1
+}
