@@ -1,7 +1,7 @@
 {
   "doctype": "Web Form",
   "name": "submit_sourcing_request",
-  "module": "Sourcepro",
+  "module": "SourcingManager",
   "doc_type": "Sourcing Request",
   "is_standard": 1,
   "title": "Submit Sourcing Request",
