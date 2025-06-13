@@ -1,0 +1,49 @@
+{
+  "doctype": "Web Form",
+  "title": "Sourcing Request Form",
+  "module": "SourcingManager",
+  "doc_type": "Sourcing Request",
+  "is_standard": 1,
+  "login_required": 0,
+  "web_form_name": "sourcing_request_form",
+  "fields": [
+    {
+      "fieldname": "client_name",
+      "label": "Client Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "whatsapp_number",
+      "label": "WhatsApp Number",
+      "fieldtype": "Phone"
+    },
+    {
+      "fieldname": "destination_country",
+      "label": "Destination Country",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "reference_link",
+      "label": "Reference Link",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "picture",
+      "label": "Picture",
+      "fieldtype": "Attach Image"
+    },
+    {
+      "fieldname": "notes",
+      "label": "Notes",
+      "fieldtype": "Small Text"
+    },
+    {
+      "fieldname": "goods",
+      "label": "Goods",
+      "fieldtype": "Table",
+      "reqd": 1,
+      "options": "Requested Item"
+    }
+  ]
+}
