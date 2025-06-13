@@ -1,0 +1,42 @@
+{
+  "doctype": "DocType",
+  "name": "Sourcing Request",
+  "module": "SourcingManager",
+  "custom": 1,
+  "fields": [
+    { "fieldname": "client_name", "label": "Client Name", "fieldtype": "Data" },
+    {
+      "fieldname": "whatsapp_number",
+      "label": "WhatsApp Number",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "destination_country",
+      "label": "Destination Country",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "reference_link",
+      "label": "General Reference Link",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "attachment",
+      "label": "Attachment",
+      "fieldtype": "Attach Image"
+    },
+    {
+      "fieldname": "request_date",
+      "label": "Request Date",
+      "fieldtype": "Date",
+      "default": "Today"
+    },
+    {
+      "fieldname": "items",
+      "label": "Requested Items",
+      "fieldtype": "Table",
+      "options": "Requested Item"
+    },
+    { "fieldname": "note", "label": "Note", "fieldtype": "Text" }
+  ]
+}

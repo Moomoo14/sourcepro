@@ -1,0 +1,34 @@
+{
+  "doctype": "DocType",
+  "name": "Sourcing Task",
+  "module": "SourcingManager",
+  "custom": 1,
+  "fields": [
+    {
+      "fieldname": "task_title",
+      "label": "Task Title",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "item_request",
+      "label": "Related Item Request",
+      "fieldtype": "Link",
+      "options": "Item Request"
+    },
+    {
+      "fieldname": "assigned_to",
+      "label": "Assigned To",
+      "fieldtype": "Link",
+      "options": "User"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Open\nIn Progress\nCompleted",
+      "default": "Open"
+    },
+    { "fieldname": "deadline", "label": "Deadline", "fieldtype": "Date" }
+  ]
+}
