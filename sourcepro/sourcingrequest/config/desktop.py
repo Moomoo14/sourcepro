@@ -3,7 +3,7 @@ from frappe import _
 def get_data():
     return [
         {
-            "module_name": "Sourcing Request",
+            "module_name": "SourcingRequest",
             "label": _("Sourcing Request"),
             "color": "#34a853",
             "icon": "octicon octicon-package",
