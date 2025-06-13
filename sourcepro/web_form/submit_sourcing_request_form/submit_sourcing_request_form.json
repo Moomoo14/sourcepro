@@ -11,22 +11,26 @@
       "fieldname": "client_name",
       "label": "Client Name",
       "fieldtype": "Data",
-      "reqd": 1
+      "reqd": 1,
+      "allow_in_quick_entry": 1
     },
     {
       "fieldname": "whatsapp_number",
       "label": "WhatsApp Number",
-      "fieldtype": "Phone"
+      "fieldtype": "Phone",
+      "allow_in_quick_entry": 1
     },
     {
       "fieldname": "destination_country",
       "label": "Destination Country",
-      "fieldtype": "Data"
+      "fieldtype": "Data",
+      "allow_in_quick_entry": 1
     },
     {
       "fieldname": "reference_link",
       "label": "Reference Link",
-      "fieldtype": "Data"
+      "fieldtype": "Data",
+      "allow_in_quick_entry": 1
     },
     {
       "fieldname": "picture",
@@ -43,6 +47,7 @@
       "label": "Goods",
       "fieldtype": "Table",
       "reqd": 1,
+      "allow_in_quick_entry": 1,
       "options": "Requested Item"
     }
   ]
