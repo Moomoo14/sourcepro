@@ -1,0 +1,13 @@
+{
+        "doctype": "DocType",
+        "name": "Sourcing Quotation",
+        "module": "Sourcepro",
+        "custom": 1,
+        "fields": [
+            {"fieldname": "item_request", "label": "Item Request", "fieldtype": "Link", "options": "Item Request", "reqd": 1},
+            {"fieldname": "supplier", "label": "Supplier", "fieldtype": "Link", "options": "Sourcing Supplier", "reqd": 1},
+            {"fieldname": "quoted_price", "label": "Quoted Price", "fieldtype": "Currency"},
+            {"fieldname": "delivery_time", "label": "Estimated Delivery Time", "fieldtype": "Data"},
+            {"fieldname": "notes", "label": "Notes", "fieldtype": "Small Text"}
+        ]
+}

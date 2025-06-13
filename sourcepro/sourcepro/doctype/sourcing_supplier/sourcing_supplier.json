@@ -1,0 +1,14 @@
+{
+        "doctype": "DocType",
+        "name": "Sourcing Supplier",
+        "module": "Sourcepro",
+        "custom": 1,
+        "fields": [
+            {"fieldname": "supplier_name", "label": "Supplier Name", "fieldtype": "Data", "reqd": 1},
+            {"fieldname": "contact_person", "label": "Contact Person", "fieldtype": "Data"},
+            {"fieldname": "email", "label": "Email", "fieldtype": "Data"},
+            {"fieldname": "phone", "label": "Phone", "fieldtype": "Data"},
+            {"fieldname": "country", "label": "Country", "fieldtype": "Data"},
+            {"fieldname": "wechat_id", "label": "WeChat ID", "fieldtype": "Data"}
+        ]
+}
